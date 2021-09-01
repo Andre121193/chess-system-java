@@ -1,13 +1,13 @@
 package application;
 
-import boardgame.Board;
-import boardgame.Position;
+import chess.chessMatch;
 
 public class Project {
 
 	public static void main(String[] args) {
 	
-	Board board = new Board(8,8);
+	chessMatch chessMatch = new chessMatch();
+	UI.printBoard(chessMatch.getPieces());
 
 	}
 
