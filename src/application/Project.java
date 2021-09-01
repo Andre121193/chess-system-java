@@ -1,12 +1,12 @@
 package application;
 
-import chess.chessMatch;
+import chess.ChessMatch;
 
 public class Project {
 
 	public static void main(String[] args) {
 	
-	chessMatch chessMatch = new chessMatch();
+	ChessMatch chessMatch = new ChessMatch();
 	UI.printBoard(chessMatch.getPieces());
 
 	}
